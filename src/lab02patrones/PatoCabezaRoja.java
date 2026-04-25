@@ -12,17 +12,20 @@ public class PatoCabezaRoja extends Pato implements Volable,Cuaqueable {
 
     @Override
     public void mostrar() {
-        System.out.println("Yo soy un verdadero PATO CABEZA ROJA");
+        System.out.println("Soy un real PATO CABEZA ROJA");
     }
 
     @Override
     public void volar() {
-        System.out.println("Puedo volar con mis alas");
+        System.out.println("");
     }
 
     @Override
     public void cuaquear() {
-        System.out.println("Soy un verdadero pato por eso hago CUAC CUAC");
+        System.out.println("");
     }
+
+
+
     
 }
