@@ -8,6 +8,11 @@ package lab02patrones;
  *
  * @author sistemas
  */
-public class CuaqueoMudo {
+public class CuaqueoMudo implements Cuaqueable{
+
+    @Override
+    public void cuaquear() {
+        System.out.println("<<Silencio>>");
+    }
     
 }
