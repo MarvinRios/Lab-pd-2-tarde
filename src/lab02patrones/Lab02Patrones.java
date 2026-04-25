@@ -7,11 +7,12 @@ package lab02patrones;
 public class Lab02Patrones {
 
     public static void main(String[] args) {
+        Cuaqueable cuaqueable = new Cuaqueo();
+
         PatoReal p1 = new PatoReal();
+        p1.setCuaqueable(cuaqueable);
         p1.mostrar();
-        p1.volar();
         p1.nadar();
-        p1.cuaquear();
         System.out.println("\n");
         
         PatoDeGoma p2 = new PatoDeGoma();
