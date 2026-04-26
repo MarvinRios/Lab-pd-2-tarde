@@ -9,6 +9,9 @@ public class PatoDeGoma extends Pato{
     public PatoDeGoma(){
         Cuaqueable c3 = new Chirreo();
         super.setCuaqueable(c3);
+    
+        Volable v3 = new NoVuela();
+        super.setVolable(v3);
     }
 
     @Override
