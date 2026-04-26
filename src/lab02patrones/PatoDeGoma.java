@@ -4,11 +4,12 @@
  */
 package lab02patrones;
 
-/**
- *
- * @author sistemas
- */
 public class PatoDeGoma extends Pato{
+
+    public PatoDeGoma(){
+        Cuaqueable c3 = new Chirreo();
+        super.setCuaqueable(c3);
+    }
 
     @Override
     public void mostrar() {
