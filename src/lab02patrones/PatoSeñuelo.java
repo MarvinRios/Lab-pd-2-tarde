@@ -9,6 +9,9 @@ public class PatoSeñuelo extends Pato{
     public PatoSeñuelo(){
         Cuaqueable c4 = new CuaqueoMudo();
         super.setCuaqueable(c4);
+
+        Volable v4 = new NoVuela();
+        super.setVolable(v4);
     }
 
     @Override
