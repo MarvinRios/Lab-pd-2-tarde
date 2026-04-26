@@ -6,6 +6,11 @@ package lab02patrones;
 
 public class PatoSeñuelo extends Pato{
 
+    public PatoSeñuelo(){
+        Cuaqueable c4 = new CuaqueoMudo();
+        super.setCuaqueable(c4);
+    }
+
     @Override
     public void mostrar() {
         System.out.println("Yo soy un PATO SEÑUELO");
