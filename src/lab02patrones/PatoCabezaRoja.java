@@ -9,6 +9,9 @@ public class PatoCabezaRoja extends Pato{
     public PatoCabezaRoja(){
         Cuaqueable c2= new Cuaqueo();
         super.setCuaqueable(c2);
+
+        Volable v2 = new VuelaConAlas();
+        super.setVolable(v2);
     }
 
     @Override

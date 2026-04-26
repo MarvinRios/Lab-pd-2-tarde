@@ -11,7 +11,7 @@ public class PatoReal extends Pato{
         super.setCuaqueable(c1);
 
         Volable v1 = new VuelaConAlas();
-        super.setVolabele(v1);
+        super.setVolable(v1);
     }
 
     @Override

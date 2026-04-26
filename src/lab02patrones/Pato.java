@@ -15,7 +15,7 @@ public void realizarCuaqueo(){
 
 private Volable volable;    
 
-protected void setVolabele(Volable volable){
+protected void setVolable(Volable volable){
     this.volable = volable;
 }
 
