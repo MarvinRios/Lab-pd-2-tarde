@@ -17,14 +17,13 @@ public class Lab02Patrones {
         PatoDeGoma p2 = new PatoDeGoma();
         p2.mostrar();
         p2.nadar();
-        p2.cuaqueable.cuaquear();
+        p2.chirreo.cuaquear();
         System.out.println("\n");
         
         PatoSeñuelo p3 = new PatoSeñuelo();
         p3.mostrar();
-        p3.volar();
         p3.nadar();
-        p3.cuaquear();
+        p3.cuaqueable.cuaquear();
         System.out.println("\n");
         
         PatoCabezaRoja p4 = new PatoCabezaRoja();
