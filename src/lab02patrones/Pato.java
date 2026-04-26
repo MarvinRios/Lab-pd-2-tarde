@@ -13,6 +13,16 @@ public void realizarCuaqueo(){
     cuaqueable.cuaquear();
 }
 
+private Volable volable;    
+
+protected void setVolabele(Volable volable){
+    this.volable = volable;
+}
+
+public void realizarVuelo(){
+    volable.volar();
+}
+
  public void nadar(){
         System.out.println("TODOS LOS PATOS NADAN");
     }
