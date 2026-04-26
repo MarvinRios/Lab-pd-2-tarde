@@ -19,6 +19,7 @@ public class Lab02Patrones {
         p2.nadar();
         p2.chirreo.cuaquear();
         System.out.println("\n");
+        System.out.println("prueba de conexion con el repositorio");
         
         PatoSeñuelo p3 = new PatoSeñuelo();
         p3.mostrar();
