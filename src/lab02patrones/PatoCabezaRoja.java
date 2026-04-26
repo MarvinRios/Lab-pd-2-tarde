@@ -4,11 +4,12 @@
  */
 package lab02patrones;
 
-/**
- *
- * @author sistemas
- */
 public class PatoCabezaRoja extends Pato{
+
+    public PatoCabezaRoja(){
+        Cuaqueable c2= new Cuaqueo();
+        super.setCuaqueable(c2);
+    }
 
     @Override
     public void mostrar() {
