@@ -7,19 +7,17 @@ package lab02patrones;
 public class Lab02Patrones {
 
     public static void main(String[] args) {
-        Cuaqueable cuaqueable = new Cuaqueo();
 
         PatoReal p1 = new PatoReal();
-        p1.setCuaqueable(cuaqueable);
         p1.mostrar();
         p1.nadar();
+        p1.cuaqueable.cuaquear();
         System.out.println("\n");
         
         PatoDeGoma p2 = new PatoDeGoma();
         p2.mostrar();
-        p2.volar();
         p2.nadar();
-        p2.cuaquear();
+        p2.cuaqueable.cuaquear();
         System.out.println("\n");
         
         PatoSeñuelo p3 = new PatoSeñuelo();
@@ -31,9 +29,8 @@ public class Lab02Patrones {
         
         PatoCabezaRoja p4 = new PatoCabezaRoja();
         p4.mostrar();
-        p4.volar();
         p4.nadar();
-        p4.cuaquear();
+        p4.cuaqueable.cuaquear();
         System.out.println("\n");
     }
     

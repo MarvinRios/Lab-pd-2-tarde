@@ -8,24 +8,12 @@ package lab02patrones;
  *
  * @author sistemas
  */
-public class PatoCabezaRoja extends Pato implements Volable,Cuaqueable {
+public class PatoCabezaRoja extends Pato{
 
     @Override
     public void mostrar() {
         System.out.println("Soy un real PATO CABEZA ROJA");
     }
-
-    @Override
-    public void volar() {
-        System.out.println("");
-    }
-
-    @Override
-    public void cuaquear() {
-        System.out.println("");
-    }
-
-
 
     
 }

@@ -8,21 +8,11 @@ package lab02patrones;
  *
  * @author sistemas
  */
-public class PatoDeGoma extends Pato implements Volable,Cuaqueable {
+public class PatoDeGoma extends Pato{
 
     @Override
     public void mostrar() {
         System.out.println("Yo soy un PATITO DE GOMA");
-    }
 
-    @Override
-    public void volar() {
-        System.out.println("INCAPAZ DE VOLAR");        
-    }
-
-    @Override
-    public void cuaquear() {
-        System.out.println("Chir Chir");
-    }
-    
+    }  
 }
