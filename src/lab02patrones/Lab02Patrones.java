@@ -11,26 +11,22 @@ public class Lab02Patrones {
         PatoReal p1 = new PatoReal();
         p1.mostrar();
         p1.nadar();
-        p1.cuaqueable.cuaquear();
+        p1.realizarCuaqueo();
         System.out.println("\n");
         
         PatoDeGoma p2 = new PatoDeGoma();
         p2.mostrar();
         p2.nadar();
-        p2.chirreo.cuaquear();
         System.out.println("\n");
-        System.out.println("prueba de conexion con el repositorio");
         
         PatoSeñuelo p3 = new PatoSeñuelo();
         p3.mostrar();
         p3.nadar();
-        p3.cuaqueable.cuaquear();
         System.out.println("\n");
         
         PatoCabezaRoja p4 = new PatoCabezaRoja();
         p4.mostrar();
         p4.nadar();
-        p4.cuaqueable.cuaquear();
         System.out.println("\n");
     }
     

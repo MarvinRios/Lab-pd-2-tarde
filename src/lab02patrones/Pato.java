@@ -2,15 +2,16 @@
 package lab02patrones;
 
 public abstract class Pato{
-Cuaqueable cuaqueable = new Cuaqueo();
-Chirreo chirreo = new Chirreo();
-    
-public void setCuaqueable (Cuaqueable cuaqueable){
-    
-    }
-public void setChrreo (Chirreo chirreo){
-    
-    }
+
+private Cuaqueable cuaqueable;
+
+protected void setCuaqueable(Cuaqueable cuaqueable){
+    this.cuaqueable = cuaqueable;
+}
+
+public void realizarCuaqueo(){
+    cuaqueable.cuaquear();
+}
 
  public void nadar(){
         System.out.println("TODOS LOS PATOS NADAN");

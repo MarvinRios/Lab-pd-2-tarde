@@ -6,6 +6,11 @@ package lab02patrones;
 
 public class PatoReal extends Pato{
 
+    public PatoReal(){
+        Cuaqueable c1 = new Cuaqueo();
+        super.setCuaqueable(c1);
+    }
+
     @Override
     public void mostrar() {
         System.out.println("Yo soy un verdadero PATO REAL");
