@@ -9,6 +9,9 @@ public class PatoReal extends Pato{
     public PatoReal(){
         Cuaqueable c1 = new Cuaqueo();
         super.setCuaqueable(c1);
+
+        Volable v1 = new VuelaConAlas();
+        super.setVolabele(v1);
     }
 
     @Override
